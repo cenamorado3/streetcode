@@ -1,8 +1,9 @@
 //loads the google api and provides functionality 
 // declare google as global var for use
 /*global google*/
+
 var script = document.createElement('script');
-script.src ='https://maps.googleapis.com/maps/api/js?key=AIzaSyDOojBql4kbAIwff76-5lqBGOMUqGn9K0E&callback=initMap';
+script.src ='';
 script.defer = true;
 script.async = true;
 
@@ -22,7 +23,7 @@ window.initMap = function() {
     
         if(!navigator.geolocation)
         {
-            alert('Geolocation is not supported by your browser or device. Make sure location settings are enabled and alowed.')
+            alert('Geolocation is not supported by your browser or device. Make sure location settings are enabled and allowed.')
         }
     }
 

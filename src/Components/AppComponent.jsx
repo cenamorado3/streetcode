@@ -10,12 +10,10 @@ class StreetCodeComponent extends Component {
         return ( 
             <React.Fragment>
                 <div id="map"></div>
-                <Button id="mark" variant="primary">Party!</Button>
+                <Button id="mark" variant="primary">Party Up</Button>
             </React.Fragment>
          );
     }
-    //gmap key
-//https://maps.googleapis.com/maps/api/js?key=AIzaSyDOojBql4kbAIwff76-5lqBGOMUqGn9K0E
 }
  
 export default StreetCodeComponent;
