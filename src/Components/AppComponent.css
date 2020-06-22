@@ -1,0 +1,17 @@
+h1
+{
+    color: white;
+}
+
+#map
+{
+    margin-left: 5vw;
+    height: 500px;
+    width: 90vw;
+}
+
+#mark
+{
+    margin-top: 5vh;
+    margin-left: 50vw; 
+}

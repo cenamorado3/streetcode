@@ -1,0 +1,72 @@
+body
+{
+  background-color: #282828;
+  overflow: auto;
+}
+
+h3{
+  color:#662d91;
+}
+
+.logo-text
+{
+  display: inline;
+}
+.streetcode-logo
+{
+  display: block;
+  position: absolute;
+  height: 50vh;
+  width: auto;
+  margin-top: 10vh;
+  margin-left: 38.5vw;
+}
+.map-app
+{
+  position: absolute;
+  margin-top: 100vh;
+}
+
+@media only screen and (orientation: portrait) 
+{
+  body
+  {
+    background-color: white;
+  }
+
+  .streetcode-logo
+  {
+    display: block;
+    position: absolute;
+    height: 50vh;
+    width: auto;
+    margin-top: 10vh;
+    margin-left: 12.5vw;
+  }
+}
+
+
+.app-btn
+{
+  float: right;
+  background-color: #00aeef;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.message
+{
+  color:#bf1e2e;
+  position: absolute;
+  width: 75vw;
+  margin-left: 12.5vw;
+  margin-top: 65vh;
+}
+
+/*
+
+purple: #662d91
+red: #bf1e2e
+blue: #00aeef
+gray: 282828
+*/
