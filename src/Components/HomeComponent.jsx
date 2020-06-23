@@ -3,12 +3,6 @@ import './Home.css';
 import logo from "../streetcode_logo.png";
 import StreetCodeComponent from './AppComponent';
 
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
 
 class Home extends Component {
     state = { 
