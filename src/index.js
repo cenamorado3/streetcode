@@ -4,12 +4,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Home from './Components/HomeComponent';
 import StreetCodeComponent from './Components/AppComponent';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import {BrowserRouter as Router, Switch,Route} from 'react-router-dom';
 
 
 

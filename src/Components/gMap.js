@@ -3,7 +3,8 @@
 /*global google*/
 
 var script = document.createElement('script');
-script.src ='';
+//'https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap';
+script.src ='https://maps.googleapis.com/maps/api/js?key=&callback=initMap';
 script.defer = true;
 script.async = true;
 
@@ -21,7 +22,7 @@ window.initMap = function() {
             navigator.geolocation.getCurrentPosition(addMarker);
         }
     
-        if(!navigator.geolocation)
+        else
         {
             alert('Geolocation is not supported by your browser or device. Make sure location settings are enabled and allowed.')
         }
