@@ -20,6 +20,7 @@ window.initMap = function() {
         if(navigator.geolocation)
         {
             navigator.geolocation.getCurrentPosition(addMarker);
+            
         }
     
         else
@@ -31,6 +32,7 @@ window.initMap = function() {
 
     function addMarker(position)
     {
+        map.setCenter({lat:position.coords.latitude, lng:position.coords.longitude});
         new google.maps.Marker({position: {lat:  position.coords.latitude, lng: position.coords.longitude}, map: map});
     }
 };
