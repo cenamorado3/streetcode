@@ -14,7 +14,7 @@ class Home extends Component {
             <img src={logo} className="streetcode-logo" alt=""/>
             <div>
                 <p className="message">
-                    FILLER TEXT
+
                 </p>
             </div>
 
