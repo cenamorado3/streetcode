@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
 import logo from "../streetcode_logo.png";
-import Button from 'react-bootstrap/Button';
 import StreetCodeComponent from './AppComponent';
 
 import {

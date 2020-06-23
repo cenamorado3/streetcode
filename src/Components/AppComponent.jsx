@@ -1,7 +1,6 @@
 import React, { Component, useEffect} from 'react';
 import './AppComponent.css';
 import './gMap';
-import Button from 'react-bootstrap/Button';
 
 class StreetCodeComponent extends Component {
     state = { 
