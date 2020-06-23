@@ -10,7 +10,7 @@ class StreetCodeComponent extends Component {
         return ( 
             <React.Fragment>
                 <div id="map"></div>
-                <Button id="mark" variant="primary">Party Up</Button>
+                <button id="mark">Party Up</button>
             </React.Fragment>
          );
     }

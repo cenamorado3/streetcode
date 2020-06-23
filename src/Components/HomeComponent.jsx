@@ -21,13 +21,7 @@ class Home extends Component {
             <img src={logo} className="streetcode-logo" alt=""/>
             <div>
                 <p className="message">
-                Chris has cast Lorem Ipsum on you!
-                <br></br>
-                Roll for initiative.
-                <br></br>
-                Chris rolls 1d20 for 6.
-                <br></br>
-                <br></br>
+                    FILLER TEXT
                 </p>
             </div>
 
