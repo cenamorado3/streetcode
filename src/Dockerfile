@@ -1,18 +1,5 @@
-name: streetcode
-
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
-jobs:
-
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+# stage: 2 — the production environment
+FROM nginx:alpine
+COPY — from=react-build /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD [“nginx”, “-g”, “daemon off;”]
