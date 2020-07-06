@@ -1,6 +1,6 @@
-FROM node:8 as react-build
+FROM node:current-slim as react-build
 WORKDIR /streetcode
-COPY . ./
+COPY package.json .
 RUN npm install
 
 
