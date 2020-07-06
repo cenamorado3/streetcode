@@ -15,8 +15,8 @@ on:
 
 env:
   # TODO: Change variable to your image's name.
-  IMAGE_NAME: gcr.io/bionic-limiter-280502/github.com/cenamorado3/streetcode:$SHORT_SHA
-
+  IMAGE_NAME: streetcode
+  
 jobs:
   # Run tests.
   # See also https://docs.docker.com/docker-hub/builds/automated-testing/
