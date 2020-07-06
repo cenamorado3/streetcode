@@ -1,6 +1,6 @@
 # stage: 1
 FROM node:8 as react-build
-WORKDIR /app
+WORKDIR /streetcode
 COPY . ./
 RUN yarn
 RUN yarn build
