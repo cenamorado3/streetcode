@@ -1,12 +1,10 @@
-# stage: 1
 FROM node:8 as react-build
 WORKDIR /streetcode
 COPY . ./
-RUN yarn
-RUN yarn build
+RUN npm install
 
-# stage: 2 — the production environment
+
 FROM nginx:alpine
-COPY — from=react-build /app/build /usr/share/nginx/html
-EXPOSE 80
+COPY — from=react-build
+EXPOSE 8080
 CMD [“nginx”, “-g”, “daemon off;”]
