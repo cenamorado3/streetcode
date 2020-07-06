@@ -1,8 +1,8 @@
 FROM node:current-slim
 WORKDIR /streetcode
 COPY package.json .
-RUN npm install
+RUN npm install -g serve
 COPY . .
 
-CMD ["npm","start"]
-CMD [ "/bin/bash", "-c", "--" ]
+CMD ["npm","run","build","--production"]
+CMD ["serve", "-s", "build"]
